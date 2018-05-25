@@ -1,0 +1,50 @@
+@media all and (max-width: 992px) {
+    .toggle {
+        display: block;
+        text-align: right;
+		font-size: 36px;
+		margin-right: 10px;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    
+    #main-nav ul .list-item {
+        display: block;
+    }
+    
+    #about figure,
+    #about article {
+        width: 100%;
+    }
+    
+    #about figure img {
+        width: 100%;
+    }
+    
+    #portfolio .portfolio-inner {
+        width: 100%;
+    }
+    
+    #contact .contact-inner {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social-icons {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    
+}
